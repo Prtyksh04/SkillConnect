@@ -1,0 +1,25 @@
+
+.post-detail-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.post-details {
+    flex : 2.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.post-message {
+    flex : 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

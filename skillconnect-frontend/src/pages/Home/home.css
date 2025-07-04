@@ -1,0 +1,26 @@
+.home-body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 100%;
+    gap: 20px;
+    /* background-color: blue; */
+}
+
+.home-body-left {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.home-body-right {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 3;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}

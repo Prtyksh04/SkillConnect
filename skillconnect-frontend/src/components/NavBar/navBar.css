@@ -1,0 +1,100 @@
+
+.nav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.2);
+    width: 100%;
+    padding: 0.1rem 1rem;
+}
+
+.site-title{
+    /* background-color: #777; */
+    align-self: center;
+}
+
+.site-title a{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my-account {
+    /* background-color: #777; */
+    border-radius: 5px;
+    align-self: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    /* padding: 0.2rem; */
+}
+
+.nav ul {
+    /* background-color: red; */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-grow: 1;
+}
+
+.nav li{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: white;
+    border-color: white;
+}
+
+.nav li.active{
+    color: #268d61;
+}
+
+.nav li.not-active{
+    color: rgb(68, 68, 68);
+}
+
+.active-line{
+    border-bottom: 3px solid #268d61;
+}
+
+.not-active-line{
+    border-bottom: 3px solid white;
+}
+
+
+.nav li:hover{
+    color: #3db883;
+}
+
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+
+.brand-icon {
+    width: 55px;
+    height: 55px;
+    align-self: center;
+    margin-right: 0.4rem;
+    padding: 0.4rem;
+}
+
+.nav-item {
+    background-color: #268d61;
+}
